@@ -1,0 +1,18 @@
+/*
+body {
+  background-image: url("../media/kosciol/Kosciol1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: sans-serif;
+  color: black;
+  min-height: 100vh;
+}
+*/
+
+.my-img
+{
+	
+	width: 60vw;
+	height: auto;
+}

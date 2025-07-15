@@ -6,6 +6,7 @@
     </head>
 
     <body>
+        <?php include 'template/menu.php'; ?>
 
         <main class="container" style="min-height: 100vh;">
         <h1>Parafia Rzymskokatolicka świętego Jakuba Apostoła w Wielowiczu</h1>
@@ -20,7 +21,7 @@
                     $polaczenie = new mysqli($host, $db_user, $db_password, $db_name);
                     if($polaczenie->connect_errno == 0)
                     {
-                        $sql = "SELECT * FROM aktualnosci ORDER BY id DESC LIMIT 5";
+                        $sql = "SELECT * FROM aktualne ORDER BY id DESC LIMIT 5";
                         $rezultat = @$polaczenie->query($sql);
                         if(!$rezultat) throw new Exception($polaczenie->error);
                             $counter = 1;

@@ -8,7 +8,7 @@
     <body>
         <?php include 'template/menu.php'; ?>
 
-        <main class="container" style="min-height: 100vh;">
+        <main class="container">
         <h1>Parafia Rzymskokatolicka świętego Jakuba Apostoła w Wielowiczu</h1>
 
             <?php

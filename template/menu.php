@@ -7,7 +7,7 @@ echo<<<END
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <div class="container">
                 <button class="navbar-toggler mr-auto ml-auto w-100 border-dark" style="border-width:2px" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <h4 class="text-dark">Parafia Św. Jakuba Apostoła w Wielowiczu</h4>
+                    <h4 class="text-dark mr-auto ml-auto">Parafia Św. Jakuba Apostoła w Wielowiczu</h4>
                     <span class="navbar-toggler-icon my-1"/>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggle">

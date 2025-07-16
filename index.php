@@ -32,11 +32,8 @@
                                 
                                     echo '<div class="my-img mb-2">';
                                         echo '<h2>'.$wiersz['tytul'].'<h2>';
-                                        echo '<h2>'.$wiersz['zdjecie1'].'</h2>';
                                         echo '<img src="media/'.$wiersz['zdjecie1'].'" alt="'.$wiersz['tytul'].'" class="img-fluid"/>';
-                                    echo '</div>';
-                                
-                                    echo '<div class="my-img mb-2">';
+
                                         if(array_key_exists('tresc', $wiersz) ) {
                                             echo '<h2>'.$wiersz['tresc'].'</h2>';
                                         }
@@ -45,6 +42,8 @@
                                             echo '<img src="media/'.$wiersz['zdjecie2'].'" alt="'.$wiersz['tresc'].'" class="img-fluid"/>';
                                         }
                                     echo '</div>';
+                                
+
                                 
                                 echo '</div>';
                                 

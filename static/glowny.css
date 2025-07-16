@@ -5,8 +5,16 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: sans-serif;
-    color: black;
+    color: dark;
 }
+
+@media (max-width: 991px) {
+    body {
+        background-image: url("../media/jakub/JakubApostol2.jpg");
+        color: white;
+    }
+}
+
 
 .my-img
 {

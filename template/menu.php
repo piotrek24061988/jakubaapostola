@@ -16,7 +16,7 @@ END;
                     if(!isset($_SESSION['user']))
                     {
 echo<<<END
-                        <a class="btn btn-dark w-100 mx-1 font-weight-bold" href="/"><h3>Główna</h3></a>
+                        <a class="btn btn-dark w-100 mx-1 font-weight-bold" href="domowa"><h3>Główna</h3></a>
 END;
                     }
                     else {

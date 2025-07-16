@@ -18,9 +18,14 @@ body {
 
 .my-img
 {
-    width: 80vw;
+    width: 90%;
     height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+.my-img img
+{
+    width: 100vw;
+    height: auto;
 }

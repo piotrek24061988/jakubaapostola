@@ -26,7 +26,7 @@ echo<<<END
                                 <h3>Główna</h3>
                             </button>
                             <div class="dropdown-menu bg-dark mr-auto ml-auto" aria-labelledby="subnav">
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="/"><h3>Domowa</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light    color: white;bo" href="/"><h3>Domowa</h3></a>
                                 <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Aktualności</h3></a>
                                 <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Dodaj Aktualności</h3></a>
                             </div>

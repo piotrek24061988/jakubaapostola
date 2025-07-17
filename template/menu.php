@@ -7,7 +7,7 @@ echo<<<END
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
             <div class="container">
                 <button class="navbar-toggler mr-auto ml-auto w-100 border-light" style="border-width:2px" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <h5 class="text-light mr-auto ml-auto">Parafia Św. Jakuba Apostoła w Wielowiczu</h5>
+                    <h5 class="text-light mr-auto ml-auto font-weight-bold">Parafia Św. Jakuba Apostoła w Wielowiczu</h5>
                     <span class="navbar-toggler-icon my-1"/>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggle">
@@ -26,9 +26,8 @@ echo<<<END
                                 <h3>Główna</h3>
                             </button>
                             <div class="dropdown-menu bg-dark mr-auto ml-auto" aria-labelledby="subnav">
-                                <a class="dropdown-item bg-dark font-weight-bold text-light    color: white;bo" href="/"><h3>Domowa</h3></a>
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Aktualności</h3></a>
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Dodaj Aktualności</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light"  href="domowa"><h3>Domowa</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="dodajAktualnosci"><h3>Dodaj Aktualności</h3></a>
                             </div>
                         </div>
 END;

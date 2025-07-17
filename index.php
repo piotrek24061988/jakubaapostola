@@ -9,7 +9,6 @@
         <?php include 'template/menu.php'; ?>
 
         <main class="container">
-        <h1>Parafia Rzymskokatolicka świętego Jakuba Apostoła w Wielowiczu</h1>
 
             <?php
                 @session_start();
@@ -27,23 +26,12 @@
                             $counter = 1;
                             while($wiersz = $rezultat->fetch_assoc())
                             {
-                                echo '<div class="text-center text-wrap text-break">';
-                                    echo '<h2>'.$counter.'</h2>';
+                                echo '<div class="text-center text-wrap text-break my-5">';
                                 
-                                    echo '<div class="my-img mb-2">';
-                                        echo '<h2>'.$wiersz['tytul'].'<h2>';
-                                        echo '<img src="media/'.$wiersz['zdjecie1'].'" alt="'.$wiersz['tytul'].'" class="img-fluid"/>';
-
-                                        if(array_key_exists('tresc', $wiersz) ) {
-                                            echo '<h2>'.$wiersz['tresc'].'</h2>';
-                                        }
-                                        if(array_key_exists('zdjecie2', $wiersz) && array_key_exists('tresc', $wiersz)) {
-                                            echo '<h2>'.$wiersz['zdjecie2'].'</h2>';
-                                            echo '<img src="media/'.$wiersz['zdjecie2'].'" alt="'.$wiersz['tresc'].'" class="img-fluid"/>';
-                                        }
+                                    echo '<div class="my-img mb-5">';
+                                        echo '<h3 class="font-weight-bold">'.$wiersz['tytul'].'<h3>';
+                                        echo '<a class="nodecoration" href="szczegolyAktualnosci?id='.$wiersz['id'].'">'.'<img src="media/'.$wiersz['zdjecie1'].'" alt="'.$wiersz['tytul'].'" class="img-fluid"/></a>';
                                     echo '</div>';
-                                
-
                                 
                                 echo '</div>';
                                 

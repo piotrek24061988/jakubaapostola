@@ -25,10 +25,28 @@ body {
     background-color: white;
     color: black;
     padding: 1%;
+    border-radius: 10px;
 }
 
 .my-img img
 {
     width: 100vw;
     height: auto;
+    border-radius: 10px;
 }
+
+.news
+{
+    border-radius: 10px;
+    color: black;
+}
+
+.news img
+{
+    border-radius: 10px;  
+}
+
+.textarea {
+	white-space: pre-line;
+}
+

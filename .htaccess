@@ -13,3 +13,6 @@ RewriteRule domowa index.php
 RewriteRule logowanie logowanie.php
 RewriteRule zaloguj zaloguj.php
 RewriteRule wyloguj wyloguj.php
+RewriteRule dodajAktualnosci dodajAktualnosci.php
+RewriteRule kasujAktualnosci kasujAktualnosci.php
+RewriteRule szczegolyAktualnosci szczegolyAktualnosci.php

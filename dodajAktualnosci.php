@@ -141,7 +141,7 @@
 
 				?>				
 					<form method="post" enctype="multipart/form-data" class="col-12 text-dark">
-						<h3>Aktualności:</h3>
+						<h3 class="font-weight-bold">Aktualności:</h3>
 						<label for="title">Tytuł:</label>
 						<input type="text" name="title" class="w-100"/> </br>
 						<input type="file" name="file" class="mt-1 mb-1 w-100" style=""></br> 

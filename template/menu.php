@@ -54,7 +54,7 @@ END;
                                 if(isset($_SESSION['user']))
                                 {
 echo<<<END
-                                <a class="dropdown-item bg-dark font-weight-bold" href="#"><h3>Dodaj bieżące</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Dodaj bieżące</h3></a>
 END;
                                 }
 echo<<<END

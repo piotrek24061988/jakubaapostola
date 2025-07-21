@@ -61,13 +61,18 @@
 
 						if(isset($_SESSION['user']))
 						{
-							echo '<tr class="row">';
-							echo '<td class="col-12">';
+                            echo '<tr class="row">';
+							echo '<td class="col-6">';
 							echo '<form action="kasujAktualnosci?id='.$id.'" method="post">';
 							echo '<input type="submit" value="kasuj" class="mt-1 mb-1 btn btn-danger text-dark font-weight-bold"/>';
 							echo '</form>';
+							echo '</td>';			
+							echo '<td class="col-6">';
+							echo '<form action="aktualizujAktualnosci?id='.$id.'" method="post">';
+							echo '<input type="submit" value="aktualizuj" class="mt-1 mb-1 btn btn-warning text-dark font-weight-bold"/>';
+							echo '</form>';
 							echo '</td>';
-							echo '</tr>';							
+							echo '</tr>';	
 						}
 echo<<<END
 						</table>

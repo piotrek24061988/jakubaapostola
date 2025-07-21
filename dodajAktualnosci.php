@@ -140,7 +140,7 @@
 				}
 
 				?>				
-					<form method="post" enctype="multipart/form-data" class="col-12">
+					<form method="post" enctype="multipart/form-data" class="col-12 text-dark">
 						<h3>Aktualności:</h3>
 						<label for="title">Tytuł:</label>
 						<input type="text" name="title" class="w-100"/> </br>

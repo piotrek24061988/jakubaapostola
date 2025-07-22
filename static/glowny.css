@@ -26,6 +26,12 @@ body {
     color: black;
     padding: 1%;
     border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.my-img:hover
+{
+    transform: scale(0.9);
 }
 
 .my-img img
@@ -49,4 +55,3 @@ body {
 .textarea {
 	white-space: pre-line;
 }
-

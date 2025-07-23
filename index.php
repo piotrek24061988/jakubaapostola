@@ -48,6 +48,31 @@
                 }
             ?>
 
+            <div class="text-center text-wrap text-break my-5">
+                                
+                <div class="my-txt mb-5">
+                    <h3 class="font-weight-bold">Parafia pw. św. Jakuba Apostoła w Wielowiczu</h3><br>
+
+                    <h3 class="font-weight-bold">Wielowicz 13, 89-412 Sośno</h3><br>
+                        
+                    <h4 class="font-weight-bold">proboszcz: ks. Ryszard Szymkowiak</h4>
+
+                    <hr size="2" color="black">
+ 
+                    <h4 class="font-weight-bold">Msze święte:</h4>
+
+                    <h5 class="font-weight-bold">
+                    w niedzielę: 7.30 (latem), 8.00 (zimą), 9.30, 11.00<br><br>
+
+                    w święta zniesione: 9.30, 17.00 (zimą), 18.00 (latem)<br><br>
+
+                    w dni powszednie: 17.00 (zimą), 18.00 (latem)<br>
+                    </h5>
+                    
+                </div>
+                                
+            </div>
+
         </main>
 
         <?php include 'template/footer.php'; ?>

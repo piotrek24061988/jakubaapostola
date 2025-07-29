@@ -19,7 +19,7 @@
 
         <main class="container">
 			
-			<div class="bg-light mt-1 mb-5 content2 d-flex align-items-center justify-content-center row">
+			<div class="bg-light mt-1 mb-5 d-flex align-items-center justify-content-center row">
 			<?php
 				if(isset($_POST['submit']) && isset($_FILES['file']))
 				{

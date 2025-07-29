@@ -38,9 +38,8 @@ echo<<<END
                                 <h3>Parafia</h3>
                             </button>
                             <div class="dropdown-menu bg-dark mr-auto ml-auto" aria-labelledby="subnav">
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Kontakt</h3></a>
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Biuro</h3></a>
-                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="#"><h3>Duchowieństwo</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="parafia"><h3>Kościół</h3></a>
+                                <a class="dropdown-item bg-dark font-weight-bold text-light" href="duchowni"><h3>Duchowni</h3></a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">

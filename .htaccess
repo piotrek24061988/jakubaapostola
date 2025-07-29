@@ -17,4 +17,5 @@ RewriteRule dodajAktualnosci dodajAktualnosci.php
 RewriteRule kasujAktualnosci kasujAktualnosci.php
 RewriteRule szczegolyAktualnosci szczegolyAktualnosci.php
 RewriteRule aktualizujAktualnosci aktualizujAktualnosci.php
-
+RewriteRule parafia parafia.php
+RewriteRule duchowni duchowni.php

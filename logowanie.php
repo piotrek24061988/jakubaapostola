@@ -20,7 +20,7 @@
 
         <main class="container">
             
-            <div class="mt-5 content text-center">
+            <div class="mt-5 text-center">
 <?php
 
                 if(isset($_SESSION['blad']))

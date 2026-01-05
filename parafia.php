@@ -22,6 +22,24 @@
 				<h3 class="text-justify mx-3">
 					Parafia rzymskokatolicka w dekanacie Sępólno Krajeńskie w diecezji bydgoskiej.
 				<h3>
+
+				<img src="media/kosciol/Kosciol_Wielowicz_1900.jpg" alt="Kosciol_Wielowicz_1900" class="col-12"/>
+
+				<img src="media/kosciol/20.01.1959r. ślub Aniali Kowalik i Pawła Klozaka.jpg" class="col-12"/>
+
+				<img src="media/kosciol/23.10.1971r..jpg" class="col-12"/>
+
+				<img src="media/kosciol/Bp Czapliński.jpg" class="col-12"/>
+
+				<img src="media/kosciol/stare zdjęcia kościoła (10).jpg" class="col-12"/>
+
+				<img src="media/kosciol/Prymicja ks. Urabana.jpg" class="col-12"/>
+
+				<img src="media/kosciol/nowe fotki 012.jpg" class="col-12"/>
+
+				<img src="media/kosciol/Bierzmowanie-świadek dla chłopców- p. Piszczek (ojciec p. Kozyrowej).jpg" class="col-12"/>
+
+
 			</div>
         </main>
 
